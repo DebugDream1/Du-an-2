@@ -10,3 +10,94 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", serif;
 }
+
+/* ====================common================ */
+a {
+  text-decoration: none;
+}
+
+/* ====================header================ */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -44px;
+}
+
+.header .body {
+  padding: 52px 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body__nav ul {
+  display: flex;
+}
+
+.action {
+  display: flex;
+}
+
+.body__logo {
+  width: 90.67px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.body__nav {
+  margin-left: 235px;
+  margin-right: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body__nav a {
+  margin-right: 39px;
+  color: #494949;
+  text-align: center;
+  font-size: 16px;
+}
+
+.action__signin:hover,
+.body__nav a:hover {
+  color: #2f3a3b;
+  text-shadow: 0 0 currentColor;
+}
+
+.action .btn {
+  width: 108px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.action__signin {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  border: none;
+  background: #fff;
+}
+
+.action__signup {
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  background: #fff;
+  font-weight: 600;
+}
+
+.action__signup:hover {
+  background: #1ebfc1;
+  color: #fff;
+}
